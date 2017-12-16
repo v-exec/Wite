@@ -1,0 +1,141 @@
+*, html {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Roboto';
+	font-size: 19px;
+	font-weight: 400;
+	background: #eee;
+	color: #000;
+}
+
+a {
+	color: #888;
+}
+
+a:hover{
+	color: #000;
+}
+
+p {
+	display: inline;
+	line-height: 22px;
+	margin: 0;
+}
+
+::-moz-selection {
+	color: #000;
+	background: #eee;
+}
+
+::selection {
+	color: #000;
+	background: #eee;
+}
+
+#timeline {
+	height: 100%;
+	list-style: none;
+	overflow-x: auto;
+}
+
+.post {
+	margin-bottom: 1px;
+	padding: 40px;
+	background-color: #fff;
+}
+
+.divider {
+	width: 100%;
+	height: 1px;
+	background-color: #888;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.user-entry {
+	margin-bottom: 30px;
+}
+
+.post-image,
+.post-video {
+	width: 100%;
+	height: auto;
+	margin-bottom: 30px;
+	border-radius: 3px;
+}
+
+.post-video {
+	height: 450px;
+	border: 0;
+}
+
+/*footer*/
+.user-footer {
+	display: block;
+	font-size: 11.5px;
+}
+
+.avatar {
+	width: 25px;
+	height: 25px;
+}
+
+.user-info {
+	display: inline-block;
+	height: 25px;
+	padding: 0;
+	padding-top: 1px;
+	margin-left: 10px;
+	margin-top: 0;
+	margin-bottom: 0;
+	line-height: 12px;
+	vertical-align: top;
+	list-style: none;
+	color: #888;
+}
+
+.user-info-item {
+	margin: 0;
+	margin-bottom: 1px;
+}
+
+.user-name {
+	color: #000;
+}
+
+.post-link {
+	padding-top: 1px;
+	float: right;
+}
+
+.toggle {
+	cursor:pointer;
+	margin-left: 5px;
+}
+
+.json-source {
+	display: block;
+	word-wrap: break-word;
+	padding: 10px;
+	margin-top: 8px;
+	font-family: "Roboto Mono";
+	background-color: #eee;
+	color: #000;
+}
+
+@media (max-width: 900px) {
+	#body {
+		margin-top: 20px;
+		margin-bottom: 0;
+	}
+
+	#title-card {
+		margin-left: 40px;
+	}
+
+	.post-video {
+		height: auto;
+	}
+}

@@ -1,0 +1,62 @@
+{
+	"profile":
+	{
+		"name":"vi",
+		"location":"Montreal",
+		"position":"45.5088400, -73.5878100",
+		"color":"#777777",
+		"avatar":"http://rotonde.v-os.ca/images/vi.jpg"
+	},
+	"feed":
+	[
+		{
+			"time":"1506665171",
+			"text":"Implemented executable PHP code in Purity's parser. Excited to put it to use in some unique pages about time systems! Currently using it to fetch log data and display it inline.",
+			"media":"http://rotonde.v-os.ca/images/5.png",
+			"url":"https://github.com/v-exec/Purity"
+		},
+		{
+			"time":"1506374570",
+			"text":"Spent the last few days making this weird, short, narrative game. Documentation and public release coming soon.",
+			"media":"http://rotonde.v-os.ca/images/4.png"
+		},
+		{
+			"time":"1504330502",
+			"text":"Redesigned the Log's visuals (along with a big portion of its back-end visualization) to suit V-OS' new layout style.",
+			"media":"http://rotonde.v-os.ca/images/3.png",
+			"url": "https://github.com/v-exec/Log"
+		},
+		{
+			"time":"1503708650",
+			"text":"Made a javascript client for Rotonde. Working on making it as functional as possible, have a few things to iron out. I plan on implementing 'comments' / 'replies' once that's done. Repo up.",
+			"url":"https://github.com/v-exec/Rotonde-JS-Client"
+		},
+		{
+			"time":"1503645573",
+			"text":"Spent yesterday messing about in lubuntu. Lots of non-functional, but aesthetic tweaks were made. Who would've known terminals could look this good in pastel?",
+			"media":"http://rotonde.v-os.ca/images/2.png"
+		},
+		{
+			"time":"1503331954",
+			"text":"Made (primarily front-end) modifications to electricgecko's PHP client for Rotonde.",
+			"media":"http://rotonde.v-os.ca/images/1.png",
+			"url": "https://github.com/v-exec/Rotonde-PHP-Client"
+		}
+	],
+	"portal":
+	[
+		"rotonde.cblgh.org",
+		"rotonde.xxiivv.com",
+		"rotonde.attilam.com",
+		"rotonde.anxl.faith",
+		"rotonde.electricgecko.de",
+		"rotonde-eswat.hashbase.io",
+		"brennan-ltkmn.hashbase.io",
+		"rotonde-ciel.hashbase.io",
+		"rotonde.v-os.ca",
+		"rotonde-somnius.hashbase.io",
+		"joshavanier.github.io/rotonde/",
+		"logs.spaceshipsin.space",
+		"rotonde-deuveir.hashbase.io/"
+	]
+}
