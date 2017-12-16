@@ -1,6 +1,6 @@
 # Wite
 
-_Wite_ is a proof of concept customizeable modular interface, made to provide an environment where a selection of APIs can collectively display data in an aesthetically consistent interface, and provide users with a single location that acts as a hub for various media sites.
+_Wite_ is a proof of concept customizeable modular interface, made to provide an environment where a selection of APIs can collectively display data in an aesthetically consistent and customizeable interface, as well as provide users with a single location that acts as a hub for various media sites.
 
 [Demo available here.](https://v-exec.github.io/Wite/)
 
@@ -13,3 +13,5 @@ Currently, `create empty` and `create feed` are the only functional window types
 Windows can be resized by dragging the bottom right corner. Any other drags translate the window.
 
 Any other functions are performed using the CLI at the bottom of the page.
+
+These functions are all related to interface customization: things like `grid size` and `window padding`.
